@@ -3,14 +3,12 @@
 import { useState } from 'react'
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import '/src/input.css'
 import '/src/app/globals.css'
 
 const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
+  { name: 'Home', href: '/' },
+  { name: 'About', href: '#' },
+  { name: 'Contact', href: '#' },
 ]
 
 export default function Example() {
@@ -22,26 +20,18 @@ export default function Example() {
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
+            <img className="h-40 w-auto" src="logo.jpg" alt="" />
           </a>
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
           {navigation.map((item) => (
-            <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-gray-900">
+            <a key={item.name} href={item.href} className="text-xl font-semibold leading-6 text-orange-300">
               {item.name}
             </a>
           ))}
         </div>
         <div className="flex flex-1 items-center justify-end gap-x-6">
-          <a href="#" className="hidden lg:block lg:text-sm lg:font-semibold lg:leading-6 lg:text-gray-900">
-            Log in
-          </a>
-          <a
-            href="#"
-            className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-          >
-            Sign up
-          </a>
+          
         </div>
         <div className="flex lg:hidden">
           <button
@@ -68,9 +58,9 @@ export default function Example() {
             </a>
             <a
               href="#"
-              className="ml-auto rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              className="ml-auto rounded-md bg-orange-300 px-3 py-2 text-sm font-semibold text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 "
             >
-              Sign up
+              Menu
             </a>
             <button
               type="button"
