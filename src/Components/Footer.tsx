@@ -41,7 +41,7 @@ export default function Example() {
       <div className="px-6 h-full py-24 sm:py-32 lg:px-8">
         <div className="mx-auto max-w-2xl text-center h-full flex flex-col justify-center">
           <h2 className="text-4xl font-bold tracking-tight text-[#6B4721] mb-2 sm:text-6xl">Contact Us</h2>
-          <p className="mt-6 text-lg leading-8 text-[#6B4721]">
+          <p className="mt-6 text-lg font-semibold leading-8 text-[#6B4721]">
             "For any inquiries, orders, or feedback, please don't hesitate to reach out. Our friendly team is here to
             assist you with all your baking needs. You can contact us by phone, email, or visit our bakery location. We
             look forward to hearing from you and serving up delicious treats!"

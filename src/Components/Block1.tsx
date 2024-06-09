@@ -36,23 +36,13 @@ const features = [
   
           <div className="mx-auto max-w-2xl px-4 pb-24 pt-16 sm:px-6 sm:pb-32 lg:grid lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8 lg:pt-32">
             <div className="lg:col-start-2">
-              <h2 id="features-heading" className="font-medium text-gray-500">
-                Leatherbound Daily Journal
-              </h2>
-              <p className="mt-4 text-4xl font-bold tracking-tight text-gray-900">All in the Details</p>
-              <p className="mt-4 text-gray-500">
-                We've obsessed over every detail of this handcrafted journal to bring you the best materials for daily
-                use.
+            <img src='/333.png' alt="" className="ml-56 w-28 h-50 mb-4"/>
+
+              <p className="mt-4 text-center text-5xl font-bold tracking-tight text-gray-900">Fresh breads handcrafted daily</p>
+              <p className="mt-4 text-center text-lg font-semibold text-gray-500">
+              Experience the aroma and taste of our freshly baked breads, made with the finest ingredients and traditional techniques. 
+              Each loaf is carefully crafted to ensure the highest quality and flavour, bringing the warmth of homemade bread to your table every day.
               </p>
-  
-              <dl className="mt-10 grid grid-cols-1 gap-x-8 gap-y-10 text-sm sm:grid-cols-2">
-                {features.map((feature) => (
-                  <div key={feature.name}>
-                    <dt className="font-medium text-gray-900">{feature.name}</dt>
-                    <dd className="mt-2 text-gray-500">{feature.description}</dd>
-                  </div>
-                ))}
-              </dl>
             </div>
           </div>
         </section>
