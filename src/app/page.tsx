@@ -2,6 +2,7 @@
 import Head from 'next/head'; 
 import RootLayout from './layout';
 import Navbar from '@/Components/Navbar';
+import Footer from '@/Components/Footer';
 
 
 export default function Home() {
@@ -16,7 +17,7 @@ export default function Home() {
       <Navbar />
       
         
-        
+      <Footer />
       
       
 
