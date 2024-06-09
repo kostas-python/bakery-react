@@ -3,6 +3,7 @@ import Head from 'next/head';
 import RootLayout from './layout';
 import Navbar from '@/Components/Navbar';
 import Footer from '@/Components/Footer';
+import Block1 from '@/Components/Block1';
 
 
 export default function Home() {
@@ -15,7 +16,7 @@ export default function Home() {
       <html className="h-full bg-white">
       <body className="h-full">
       <Navbar />
-      
+      <Block1 />
         
       <Footer />
       
