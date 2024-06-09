@@ -4,6 +4,7 @@ import RootLayout from './layout';
 import Navbar from '@/Components/Navbar';
 import Footer from '@/Components/Footer';
 import Block1 from '@/Components/Block1';
+import Block2 from '@/Components/Block2';
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <body className="h-full">
       <Navbar />
       <Block1 />
+      <Block2 />
         
       <Footer />
       
