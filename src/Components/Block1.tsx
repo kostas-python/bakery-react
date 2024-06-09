@@ -1,6 +1,7 @@
+'use client'
 
-
-
+import React from 'react';
+import LazyLoad from 'react-lazyload';
 
 const features = [
     {
@@ -24,11 +25,13 @@ const features = [
       <div className="bg-cover bg-[url('/hhh.jpg')]">
         <section aria-labelledby="features-heading" className="relative">
           <div className="aspect-h-2 aspect-w-3 overflow-hidden sm:aspect-w-5 lg:aspect-none lg:absolute lg:h-full lg:w-1/2 lg:pr-4 xl:pr-16">
+          <LazyLoad>
             <img
               src='/block1.jpg'
               alt="Black leather journal with silver steel disc binding resting on wooden shelf with machined steel pen."
               className="h-full w-full object-cover object-center lg:h-full lg:w-full"
             />
+         </LazyLoad>
           </div>
   
           <div className="mx-auto max-w-2xl px-4 pb-24 pt-16 sm:px-6 sm:pb-32 lg:grid lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8 lg:pt-32">
