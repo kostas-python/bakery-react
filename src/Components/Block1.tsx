@@ -5,7 +5,7 @@ import LazyLoad from 'react-lazyload';
 
 
   
-  export default function Example() {
+  export default function Example1() {
     return (
       <div className="bg-cover bg-[url('/hhh.jpg')]">
         <section aria-labelledby="features-heading" className="relative">

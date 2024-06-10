@@ -9,29 +9,29 @@ const features = [
       name: 'WHITE BREAD',
       description: 'A classic staple in baking, white bread is a light, fluffy loaf made primarily from wheat flour. Renowned for its soft texture and mild flavor, it serves as a versatile foundation for sandwiches, toast, and countless other culinary creations.',
       imageSrc: '/ghgh.jpg',
-      imageAlt: 'Green cardstock box containing white, beige, and brown cards.',
+      imageAlt: '',
     },
     {
       name: 'FARMING BREAD',
       description: 'Crafted with care and tradition, farming bread embodies the rustic essence of homemade baking. Rich in wholesome ingredients and baked to perfection, it offers a hearty flavor and satisfying texture reminiscent of simpler times and the nourishing warmth of the countryside.',
       imageSrc: '/rre.jpg',
-      imageAlt: 'Green cardstock box open with 50 cards inside.',
+      imageAlt: '',
     },
     {
       name: 'LOAF BREAD',
       description: 'An iconic symbol of comfort and convenience, loaf bread is a versatile staple cherished for its soft texture and mild flavor. Whether toasted for breakfast or used as the foundation for sandwiches, its uniform slices make it a timeless favorite for daily enjoyment.',
       imageSrc: '/trrt.jpg',
-      imageAlt: 'Detail of white today card, beige next card, and brown someday card with dot grid.',
+      imageAlt: '',
     },
     {
       name: 'SOURDOUGH',
       description: 'A beloved artisanal creation, sourdough bread is renowned for its tangy flavor and chewy texture, derived from a naturally leavened fermentation process. Each loaf is offering a delightful balance of acidity and depth that pairs perfectly with a variety of spreads and accompaniments.',
       imageSrc: '/88-min.jpg',
-      imageAlt: 'Stack of three green cardstock boxes with 3 hole cutouts showing cards inside.',
+      imageAlt: '',
     },
   ]
   
-  export default function Example() {
+  export default function Example2() {
     return (
       <div className="bg-cover bg-[url('/block2.jpg')] text-white">
         <div className="mx-auto max-w-7xl px-4 py-24 sm:px-6 sm:py-32 lg:px-8 text-center">

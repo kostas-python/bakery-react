@@ -11,7 +11,7 @@ const navigation = [
   { name: 'Contact', href: '#' },
 ]
 
-export default function Example() {
+export default function Example02() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (

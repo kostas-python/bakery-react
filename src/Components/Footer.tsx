@@ -28,7 +28,7 @@ const cards = [
   },
 ]
 
-export default function Example() {
+export default function Example01() {
   return (
     <footer className="bg-cover bg-[url('/footer1.jpg')] py-24 sm:py-32 h-[800px]">
       <LazyLoad>
