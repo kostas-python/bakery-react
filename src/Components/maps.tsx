@@ -11,7 +11,7 @@ interface GoogleMapComponentProps {
 
 const GoogleMapComponent: React.FC<GoogleMapComponentProps> = ({ latitude, longitude, zoom }) => {
   const { isLoaded, loadError } = useLoadScript({
-    googleMapsApiKey: 'YOUR_API_KEY_HERE', // Replace with your actual API key
+    googleMapsApiKey: 'AIzaSyCwuMBBxqZFoX66IH6Mt8bkmMvdNOqihhw',
   });
 
   if (loadError) return <div>Error loading maps</div>;

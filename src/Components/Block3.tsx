@@ -30,8 +30,10 @@ export default function Example3() {
             </div>
           </div>
           <div className="lg:w-1/2 mt-8 lg:mt-0">
-            <div className="hidden lg:block">
+            <div className="hidden lg:block bg-right">
+            <LazyLoad>
               <img src="/min16.jpg" alt="Bread" className="w-full h-auto" />
+            </LazyLoad>
             </div>
           </div>
         </div>

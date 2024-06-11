@@ -1,4 +1,5 @@
-
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Head from 'next/head'; 
 import RootLayout from './layout';
 import Navbar from '@/Components/Navbar';
