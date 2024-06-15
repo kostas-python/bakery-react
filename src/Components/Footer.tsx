@@ -1,6 +1,6 @@
 'use client'
 import { ClockIcon,MapPinIcon, PhoneIcon } from '@heroicons/react/20/solid'
-import LazyLoad from 'react-lazyload';
+import Image from 'next/image';
 
 
 const cards = [
@@ -31,13 +31,15 @@ const cards = [
 export default function Example01() {
   return (
     <footer className="bg-cover bg-[url('/footer1.jpg')] py-24 sm:py-32 h-[800px]">
-      <LazyLoad>
-      <img
-        src="/footer.jpg"
-        alt=""
-        className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
-      />
-      </LazyLoad>
+      <div className="absolute inset-0 z-0">
+        <Image
+          src="/footer1.jpg"
+          alt=""
+          layout="fill"
+          objectFit="cover"
+          className="opacity-50"
+        />
+      </div>
       <div className="px-6 h-full py-24 sm:py-32 lg:px-8">
         <div className="mx-auto max-w-2xl text-center h-full flex flex-col justify-center">
           <h2 className="text-4xl font-bold tracking-tight text-[#6B4721] mb-2 sm:text-6xl">Contact Us</h2>
