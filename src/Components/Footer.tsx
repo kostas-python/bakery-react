@@ -28,27 +28,28 @@ const cards = [
   },
 ]
 
-export default function Example01() {
+
+const Example01 = () => {
   return (
-    <footer className="bg-cover bg-[url('/footer1.jpg')] py-24 sm:py-32 h-[800px]">
+    <footer className="relative bg-cover bg-center bg-[url('/footer1.jpg')] py-24 sm:py-32 h-[1000px]">
       <div className="absolute inset-0 z-0">
         <Image
           src="/footer1.jpg"
           alt=""
           layout="fill"
           objectFit="cover"
-          className="opacity-50"
+          quality={100}
         />
       </div>
-      <div className="px-6 h-full py-24 sm:py-32 lg:px-8">
-        <div className="mx-auto max-w-2xl text-center h-full flex flex-col justify-center">
-          <h2 className="text-4xl font-bold tracking-tight text-[#6B4721] mb-2 sm:text-6xl">Contact Us</h2>
-          <p className="mt-6 text-lg font-semibold leading-8 text-[#6B4721]">
+      <div className="relative z-10">
+        <div className="mx-auto px-6 py-24 sm:py-32 lg:px-8 max-w-7xl text-center text-[#6B4721]">
+          <h2 className="text-4xl font-bold tracking-tight mb-2 sm:text-6xl">Contact Us</h2>
+          <p className="mt-6 text-lg font-semibold leading-8">
             "For any inquiries, orders, or feedback, please don't hesitate to reach out. Our friendly team is here to
             assist you with all your baking needs. You can contact us by phone, email, or visit our bakery location. We
             look forward to hearing from you and serving up delicious treats!"
           </p>
-          <div className="mx-auto mb-16 flex flex-wrap justify-center gap-4 sm:mt-20 lg:mx-0 h-full">
+          <div className="mx-auto mt-12 flex flex-wrap justify-center gap-4 sm:mt-20 lg:mx-0">
             {cards.map((card) => (
               <div
                 key={card.name}
@@ -70,16 +71,17 @@ export default function Example01() {
               </div>
             ))}
           </div>
-       {/* </div><div className="absolute bottom-0 right-0 mx-6 mb-6 text-xs leading-5 text-[#6B4721]">
+        </div>
+        
+        <div className="absolute bottom-0 right-0 mx-6 mb-6 text-xs leading-5 text-[#6B4721]">
           <p className="text-xs leading-5 text-black">&copy; 2020 Your Company, Inc. All rights reserved.</p>
-           */}
-        </div>       
+        </div>
+        
       </div>
     </footer>
   );
-}
+};
 
-
-  
+export default Example01;
   
   
