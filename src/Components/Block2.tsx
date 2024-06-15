@@ -1,6 +1,6 @@
 'use client'
 import React from 'react';
-import LazyLoad from 'react-lazyload';
+import Image from 'next/image';
 
 
 
@@ -43,9 +43,13 @@ const features = [
             {features.map((feature) => (
               <div key={feature.name} className="bg-white text-black p-6 flex flex-col items-center">
                 <div className="aspect-w-1 aspect-h-1 w-full h-48 overflow-hidden rounded-lg">
-                  <LazyLoad>
-                    <img src={feature.imageSrc} alt={feature.imageAlt} className="w-full h-full object-cover" />
-                  </LazyLoad>
+                <Image
+                    src={feature.imageSrc}
+                    alt={feature.imageAlt}
+                    layout="fill"
+                    objectFit="cover"
+                    loading="lazy"
+                  />
                 </div>
                 <h4 className="text-xl font-semibold mb-2 mt-4">{feature.name}</h4>
                 <p className="mb-4">{feature.description}</p>

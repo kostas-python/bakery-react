@@ -1,6 +1,6 @@
 'use client'
 import React from 'react';
-import LazyLoad from 'react-lazyload';
+import Image from 'next/image';
 
 
 
@@ -24,13 +24,13 @@ export default function Example() {
           </p>
         </div>
         <div className="relative flex justify-end">
-          <LazyLoad>
-          <img
-            src="/min16.jpg"
-            alt=""
-            className="relative inset-0 h-full object-cover object-center"
-          />
-          </LazyLoad>
+        <Image
+              src="/min16.jpg"
+              alt=""
+              layout="fill"
+              objectFit="cover"
+              loading="lazy"
+            />
         </div>
       </div>
     </>
