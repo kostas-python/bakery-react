@@ -8,6 +8,7 @@ import Block1 from '@/Components/Block1';
 import Block2 from '@/Components/Block2';
 import Block3 from '@/Components/Block3';
 import Block4 from '@/Components/Block4';
+import Block5 from '@/Components/Block5';
 
 
 export default function Home() {
@@ -24,6 +25,7 @@ export default function Home() {
       <Block2 />
       <Block3 />
       <Block4 />
+      <Block5 />
         
       <Footer />
       

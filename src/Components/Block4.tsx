@@ -2,7 +2,6 @@ import React from 'react';
 
 
 
-
 const BreadSection = () => {
   return (
     <section className="relative bg-cover bg-center bg-gray-900 bg-opacity-60 bg-[url('/tt-min.jpg')]">
