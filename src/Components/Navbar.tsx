@@ -7,7 +7,7 @@ import '/src/app/globals.css'
 
 const navigation = [
   { name: 'Home', href: '/' },
-  { name: 'About', href: '#' },
+  { name: 'Our Bread', href: '#' },
   { name: 'Contact', href: '#' },
 ]
 
