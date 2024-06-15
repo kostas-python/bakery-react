@@ -2,6 +2,7 @@
 
 import React from 'react';
 import LazyLoad from 'react-lazyload';
+import 'animate.css'
 
 
   
@@ -29,8 +30,8 @@ import LazyLoad from 'react-lazyload';
             />
             </LazyLoad>
 
-              <p className="mt-4 text-center text-5xl font-bold tracking-tight text-gray-900">Fresh breads handcrafted daily</p>
-              <p className="mt-4 text-center text-lg font-semibold text-gray-500">
+              <p className="mt-4 text-center text-5xl font-bold tracking-tight text-gray-900 animate__animated animate__fadeInRight">Fresh breads handcrafted daily</p>
+              <p className="mt-4 text-center text-lg font-semibold text-gray-500 animate__animated animate__fadeInRight">
               Experience the aroma and taste of our freshly baked breads, made with the finest ingredients and traditional techniques. 
               Each loaf is carefully crafted to ensure the highest quality and flavour, bringing the warmth of homemade bread to your table every day.
               </p>

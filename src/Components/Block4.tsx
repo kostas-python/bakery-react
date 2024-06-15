@@ -1,5 +1,5 @@
 import React from 'react';
-
+import 'animate.css'
 
 
 
@@ -8,7 +8,7 @@ const BreadSection = () => {
     <section className="relative bg-cover bg-center bg-gray-900 bg-opacity-60 bg-[url('/tt-min.jpg')]">
          <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8 text-white">
         <h2 className="text-4xl font-bold text-center mb-12">Our Bread</h2>
-        <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 animate__animated animate__zoomIn">
           {/* Glassic Baguette */}
           <div className="bg-black bg-opacity-50 p-6 rounded-2xl text-center w-full max-w-sm mx-auto">
             <h5 className="text-xl font-semibold uppercase mb-4">Glassic Baguette</h5>
