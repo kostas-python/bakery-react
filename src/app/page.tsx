@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, } from 'react-router-dom';
 import Head from 'next/head'; 
 import RootLayout from './layout';
 import Navbar from '@/Components/Navbar';
@@ -25,12 +25,14 @@ export default function Home() {
       <Block1 />
       <Block2 />
       <Block3 />
-      <Block4 />
+      <div id="bread">
+        <Block4 />
+      </div>
       <Block5 />
       <Block6 />
-        
+       <div  id="contact">
       <Footer />
-      
+      </div>
       
 
       </body>
