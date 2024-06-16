@@ -29,7 +29,7 @@ const TestimonialsSection = () => {
           </div>
           <div className="bg-orange-400/75 rounded-lg p-6">
             <p className="text-xl italic mb-14">
-              &quot;I highlight the attention to detail and the fresh ingredients used in their products, which contributed to my overall satisfaction and enjoyment of the bakery's offerings.&quot;
+              &quot;I highlight the attention to detail and the fresh ingredients used in their products, which contributed to my overall satisfaction and enjoyment of the bakery&apos;s offerings.&quot;
             </p>
             <h5 className="text-xl font-semibold">MARRY HUDSON</h5>
           </div>

@@ -1,19 +1,16 @@
-'use client'
+'use client';
 
 import React, { useState } from 'react';
+import Image from 'next/image';
 import { Dialog, DialogPanel } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import '/src/app/globals.css';
-
-
 
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'Our Bread', href: '#bread' },
   { name: 'Contact', href: '#contact' },
 ];
-
-
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -26,15 +23,13 @@ export default function Navbar() {
     }
   };
 
-
-
   return (
     <header className="bg-[#93763c]">
       <nav className="mx-auto flex max-w-7xl items-center justify-between gap-x-6 p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <a href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Bakery</span>
-            <img className="h-40 w-auto" src="bakerylogo1.png" alt="" />
+            <Image className="h-40 w-auto" src="/bakerylogo1.png" alt="Your Bakery Logo" width={160} height={40} loading="lazy"/>
           </a>
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
@@ -67,7 +62,7 @@ export default function Navbar() {
           <div className="flex items-center gap-x-6">
             <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Bakery</span>
-              <img className="h-20 w-auto" src="bakerylogo1.png" alt="" />
+              <Image className="h-20 w-auto" src="/bakerylogo1.png" alt="Your Bakery Logo" width={80} height={20} loading="lazy"/>
             </a>
             <a
               href="#"
@@ -113,3 +108,4 @@ export default function Navbar() {
     </header>
   );
 }
+

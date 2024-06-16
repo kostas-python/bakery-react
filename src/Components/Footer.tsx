@@ -45,7 +45,7 @@ const Example01 = () => {
         <div className="mx-auto px-6 py-24 sm:py-32 lg:px-8 max-w-7xl text-center text-[#6B4721]">
           <h2 className="text-4xl font-bold tracking-tight mb-2 sm:text-6xl">Contact Us</h2>
           <p className="mt-6 text-lg font-semibold leading-8">
-            &quot;For any inquiries, orders, or feedback, please don't hesitate to reach out. Our friendly team is here to
+            &quot;For any inquiries, orders, or feedback, please don&apos;t hesitate to reach out. Our friendly team is here to
             assist you with all your baking needs. You can contact us by phone, email, or visit our bakery location. We
             look forward to hearing from you and serving up delicious treats!&quot;
           </p>
