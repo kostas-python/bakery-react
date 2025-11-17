@@ -39,9 +39,9 @@ const features = [
             <h2 className="text-5xl font-bold mb-8">Our Breads</h2>
           </div>
   
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 animate__animated animate__zoomIn" style={{ animationDuration: '2s' }}>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8  animate__animated animate__zoomIn" style={{ animationDuration: '2s' }}>
             {features.map((feature) => (
-              <div key={feature.name} className="bg-white text-black p-6 flex flex-col items-center">
+              <div key={feature.name} className="bg-white text-black p-6 flex flex-col items-center rounded-xl">
                 <div className="aspect-w-1 aspect-h-1 w-full h-48 overflow-hidden rounded-lg">
                 <Image
                     src={feature.imageSrc}
